@@ -1,0 +1,147 @@
+body {
+  background-color: white;
+}
+.container {
+  display: flex;
+  padding: 30px;
+  gap: 100px;
+  flex-direction: column;
+  width: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+.content-info {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.tittle {
+  font-family: "Inconsolata", monospace;
+  color: #333;
+  font-family: Inconsolata;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.92px;
+  text-transform: uppercase;
+}
+
+.content-info,
+.content-tittle,
+.content-btn {
+  font-family: "Space Mono", monospace;
+}
+
+.content-tittle {
+  color: var(--gray-1, #333);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.24px;
+}
+
+.content-data {
+  color: var(--gray-2, #4f4f4f);
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.84px;
+}
+
+.content-btn {
+  width: 216px;
+  height: 68px;
+  flex-shrink: 0;
+  background: var(--gray-1, #333);
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.49px;
+  text-transform: uppercase;
+}
+
+.content-img {
+  padding-top: 50px;
+  width: 30%;
+  height: 100%;
+}
+
+footer span {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  color: #bdbdbd;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .tittle {
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+  }
+
+  .content {
+    align-items: center;
+    flex-direction: column;
+  }
+  .content-img {
+    width: 100%;
+  }
+
+  .content-tittle {
+    color: var(--gray-1, #333);
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.68px;
+  }
+
+  .content-data {
+    color: var(--gray-2, #4f4f4f);
+    font-family: Space Mono;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.63px;
+  }
+
+  .content-btn {
+    color: #fff;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+  }
+}
