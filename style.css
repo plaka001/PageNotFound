@@ -1,3 +1,9 @@
+:root {
+  --fontSize24: 24px;
+  --gray-1: #333;
+  --fontWeight700: 700;
+}
+
 body {
   background-color: white;
 }
@@ -26,11 +32,11 @@ body {
 
 .tittle {
   font-family: "Inconsolata", monospace;
-  color: #333;
+  color: var(--gray-1);
   font-family: Inconsolata;
-  font-size: 24px;
+  font-size: var(--fontSize24);
   font-style: normal;
-  font-weight: 700;
+  font-weight: var(--fontWeight700);
   line-height: normal;
   letter-spacing: -1.92px;
   text-transform: uppercase;
@@ -43,33 +49,35 @@ body {
 }
 
 .content-tittle {
-  color: var(--gray-1, #333);
+  color: var(--gray-1);
   font-size: 64px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: var(--fontWeight700);
   line-height: normal;
   letter-spacing: -2.24px;
+  width: 586px;
 }
 
 .content-data {
   color: var(--gray-2, #4f4f4f);
   font-family: Space Mono;
-  font-size: 24px;
+  font-size: var(--fontSize24);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.84px;
+  width: 381px;
 }
 
 .content-btn {
   width: 216px;
   height: 68px;
   flex-shrink: 0;
-  background: var(--gray-1, #333);
+  background: var(--gray-1);
   color: white;
   font-size: 14px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: var(--fontWeight700);
   line-height: normal;
   letter-spacing: -0.49px;
   text-transform: uppercase;
@@ -90,18 +98,17 @@ footer span {
   color: #bdbdbd;
   font-family: Montserrat;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: var(--fontWeight700);
   text-decoration-line: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 768px) {
   .tittle {
-    color: #333;
-    font-family: Inconsolata;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     letter-spacing: -1.92px;
     text-transform: uppercase;
   }
@@ -115,31 +122,26 @@ footer span {
   }
 
   .content-tittle {
-    color: var(--gray-1, #333);
-    font-family: Space Mono;
     font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     letter-spacing: -1.68px;
+    width: 350px;
   }
 
   .content-data {
-    color: var(--gray-2, #4f4f4f);
-    font-family: Space Mono;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     letter-spacing: -0.63px;
+    width: 328px;
   }
 
   .content-btn {
+    width: 216px;
+    height: 68px;
+    flex-shrink: 0;
     color: #fff;
     font-family: Space Mono;
     font-size: 14px;
     font-style: normal;
-    font-weight: 700;
     line-height: normal;
     letter-spacing: -0.49px;
     text-transform: uppercase;
