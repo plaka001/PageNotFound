@@ -73,4 +73,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
--LinkedIn : (https://www.linkedin.com/in/marlon-cano-073071168/)
+-LinkedIn : https://www.linkedin.com/in/marlon-cano-073071168

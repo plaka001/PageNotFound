@@ -89,7 +89,7 @@ body {
   height: 100%;
 }
 
-footer span {
+footer span a {
   text-align: center;
   font-family: Montserrat;
   font-size: 14px;
